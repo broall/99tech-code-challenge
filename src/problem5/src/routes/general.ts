@@ -35,7 +35,7 @@ router.get("/about", aboutController);
 
 /**
  * @swagger
- * /healthcheck:
+ * /health:
  *  get:
  *    tags:
  *      - About
@@ -52,6 +52,6 @@ router.get("/about", aboutController);
  *                message:
  *                  type: string
  */
-router.get("/healthcheck", healthcheckController);
+router.get("/health", healthcheckController);
 
 export default router;
